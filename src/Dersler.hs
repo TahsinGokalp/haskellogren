@@ -39,6 +39,6 @@ ders5 = do
 		<> green (text "sort \"tahsin\"") <> white (text " sende kendi isminle denemeyi unutma.") <> linebreak
 
 ders6 = do
-	putDoc $ white (text "Tebrikler fonksiyon kullanmayı öğrendin :) ") <> yellow (text "sort")
-		<> white (text " fonksiyonunu string içinde kullanabilirsin") <> linebreak
-		<> green (text "sort \"tahsin\"") <> white (text " sende kendi isminle denemeyi unutma.") <> linebreak
+	putDoc $ white (text "Bir listenin içerisine farklı değerli eklediğimizde hata alırız.Örneğin [1,\"tahsin\"] şeklinde bir liste tanımlayamayız.") <> linebreak
+		<> white (text "Bu durumlarda tuple kullanmamız gerekir.Listelere benzer olarak şu şekilde bir tuple oluşturabiliriz.") <> linebreak
+		<> green (text "(1,\"tahsin\")") <> linebreak

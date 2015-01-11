@@ -1,7 +1,7 @@
 name:                tryhaskell
 version:             0.0.0.1
-synopsis:            TryHaskell turkce versiyonu
--- description:
+synopsis:            Haskellogren
+description:         Haskellogren
 homepage:            https://github.com/TahsinGokalp/tryhaskell
 license:             MIT
 license-file:        LICENSE

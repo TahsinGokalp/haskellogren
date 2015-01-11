@@ -4,7 +4,7 @@ import Text.PrettyPrint.ANSI.Leijen
 import System.IO
 import Data.List
 
-tryhaskell = do
+haskellogren = do
 	putDoc $ green (text "yardim ") <>  white (text "yazarak ders listesine erişebilirsiniz.") <> linebreak
 	putDoc $ green (text "ders1 ") <>  white (text "yazarak Haskell öğrenmeye başlayabilirsiniz.") <> linebreak
 
@@ -15,6 +15,7 @@ yardim = do
 	putDoc $ green (text "ders4 ") <> yellow (text "=> ") <>  white (text "Listelerde sıralama") <> linebreak
 	putDoc $ green (text "ders5 ") <> yellow (text "=> ") <>  white (text "Listelerde sıralama") <> linebreak
 	putDoc $ green (text "ders6 ") <> yellow (text "=> ") <>  white (text "Tuple") <> linebreak
+	putDoc $ green (text "ders7 ") <> yellow (text "=> ") <>  white (text "Tuple 2") <> linebreak
 
 ders1 = do
 	putDoc $ green (text "Haskell'de matematiksel ifadeleri kullanarak hesaplamalar yapabilirsin.") <> linebreak
@@ -47,3 +48,7 @@ ders6 = do
 		<> green (text "Bu durumlarda tuple kullanmamız gerekir.Listelere benzer olarak") <> linebreak
 		<> green (text "şu şekilde bir tuple oluşturabiliriz.") <> linebreak
 		<> yellow (text "(1,\"tahsin\")") <> linebreak
+
+ders7 = do
+	putDoc $ green (text "Tuple'ın içerisine istediğiniz kadar veri koyabilirsiniz.") <> linebreak
+		<> green (text "Örneğin : ") <> yellow (text "(1,88,\"tahsin\",3,\"gokalp\")") <> linebreak

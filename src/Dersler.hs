@@ -17,28 +17,33 @@ yardim = do
 	putDoc $ green (text "ders6 ") <> yellow (text "=> ") <>  white (text "Tuple") <> linebreak
 
 ders1 = do
-	putDoc $ white (text "Haskell'de matematiksel ifadeleri kullanarak hesaplamalar yapabilirsin.İlk olarak bunları deneyebilirsin : ") <> linebreak
-		<> yellow (text "5+7 ") <>  white (text "veya ") <> yellow (text "8*10 ") <> linebreak
+	putDoc $ green (text "Haskell'de matematiksel ifadeleri kullanarak hesaplamalar yapabilirsin.") <> linebreak
+		<> green (text "İlk olarak bunları deneyebilirsin : ") <> linebreak
+		<> yellow (text "5+7 ") <>  green (text "veya ") <> yellow (text "8*10 ") <> linebreak
 
 ders2 = do
-	putDoc $ white (text "Matematiksel ifadelerde sorun yok peki ismimi yazmak istersem?") <> linebreak
-		<> white (text "String ifadeleri Haskell'de tırnak işaretleri arasına yazmanız gerekir.(\" \")") <> linebreak
-		<> yellow (text "\"tahsin\"") <> white (text " şeklinde sen de kendi ismini dene.") <> linebreak
+	putDoc $ green (text "Matematiksel ifadelerde sorun yok peki ismimi yazmak istersem?") <> linebreak
+		<> green (text "String ifadeleri Haskell'de tırnak işaretleri arasına yazmanız gerekir.(\" \")") <> linebreak
+		<> yellow (text "\"tahsin\"") <> green (text " şeklinde sen de kendi ismini dene.") <> linebreak
 
 ders3 = do
-	putDoc $ white (text "Tek bir ifade değilde liste ile çalışmak istersek istediğimiz değerleri [ ] parantezleri içerisine yazmamız gerekir.") <> linebreak
-		<> green (text "[1,2,3]") <> linebreak
+	putDoc $ green (text "Tek bir ifade değilde liste ile çalışmak istersek istediğimiz değerleri ") <> linebreak
+		<> green (text "[ ] parantezleri içerisine yazmamız gerekir.") <> linebreak
+		<> yellow (text "[1,2,3]") <> linebreak
 
 ders4 = do
-	putDoc $ white (text "Diğer derste sıralı bir liste denemiştik.Listemiz karışık olsaydı bunu sıralamak için :") <> linebreak
-		<> green (text "sort [3,1,2]") <> white (text " kullanabilirdik.") <> linebreak
+	putDoc $ green (text "Diğer derste sıralı bir liste denemiştik.Listemiz karışık olsaydı") <> linebreak
+		<> green (text "bunu sıralamak için :") <> linebreak
+		<> yellow (text "sort [3,1,2]") <> green (text " kullanabilirdik.") <> linebreak
 
 ders5 = do
-	putDoc $ white (text "Tebrikler fonksiyon kullanmayı öğrendin :) ") <> yellow (text "sort")
-		<> white (text " fonksiyonunu string içinde kullanabilirsin") <> linebreak
-		<> green (text "sort \"tahsin\"") <> white (text " sende kendi isminle denemeyi unutma.") <> linebreak
+	putDoc $ green (text "Tebrikler fonksiyon kullanmayı öğrendin :) ") <> yellow (text "sort") <> linebreak
+		<> green (text "fonksiyonunu string içinde kullanabilirsin") <> linebreak
+		<> yellow (text "sort \"tahsin\"") <> green (text " sende kendi isminle denemeyi unutma.") <> linebreak
 
 ders6 = do
-	putDoc $ white (text "Bir listenin içerisine farklı değerli eklediğimizde hata alırız.Örneğin [1,\"tahsin\"] şeklinde bir liste tanımlayamayız.") <> linebreak
-		<> white (text "Bu durumlarda tuple kullanmamız gerekir.Listelere benzer olarak şu şekilde bir tuple oluşturabiliriz.") <> linebreak
-		<> green (text "(1,\"tahsin\")") <> linebreak
+	putDoc $ green (text "Bir listenin içerisine farklı değerli eklediğimizde hata alırız.") <> linebreak
+		<> green (text "Örneğin [1,\"tahsin\"] şeklinde bir liste tanımlayamayız.") <> linebreak
+		<> green (text "Bu durumlarda tuple kullanmamız gerekir.Listelere benzer olarak") <> linebreak
+		<> green (text "şu şekilde bir tuple oluşturabiliriz.") <> linebreak
+		<> yellow (text "(1,\"tahsin\")") <> linebreak
